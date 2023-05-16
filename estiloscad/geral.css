@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+/* Rectangle 6 */
+
+    /* Rectangle 2 */
+
+.head_box{
+    width: auto;
+    height: 100px;
+    background: rgba(8, 1, 1, 0.768);
+    display: flex;
+    
+}
+
+#box_menu{
+    width: 50%;
+    height: auto;
+}
+
+nav{
+    margin-left: 10%;
+    display: flex;
+    gap: 3rem;
+    
+    
+}
+
+li{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 500%;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+li:hover{
+    font-size: 20px;
+    color: #805b37;
+}
+    
+    /* LOGIN */
+#box_login{
+    width: 50%;
+    height: auto;
+    line-height: 450%;
+}
+    
+#butt{
+    margin-left: 50%;
+    align-self:center ;
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    background: #917676;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #FFFFFF;
+    }
+
+#butt:hover{
+    width: 80px;
+    height: 40px;
+    color: rgb(46, 28, 5);
+    transition: 1s;
+}

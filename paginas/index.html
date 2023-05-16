@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="../stilo/geral.css">
+    <link rel="stylesheet" href="../stilo/pratos.css">
+</head>
+<body style="background-color: rgb(245, 240, 99);">
+
+    <!-- Cabeçalho -->
+    <header class="container-fluid ">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../img/logo.png" class="imgi" alt="Logo"> Re.C
+            </div>
+            <div class="col-md-8">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/receita.html">Receita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/envie.html">Envie seu prato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/sobre.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/contatos.html">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-2 text-right">
+                <button class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo -->
+    <main class="container">
+        <div class="container">
+            <h1 class="text-center">Bem-vindo ao Meu Site de Receitas</h1>
+            <p class="text-center">Aqui você encontrará as melhores receitas para se deliciar e impressionar seus convidados.</p>
+    
+            <div class="row mt-5 mb-5">
+                <div class="col-md-8 mx-auto">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="prato">
+                                    
+                                    <div class="prato-circulo">
+                                        <img src="../img/png-clipart-california-roll-sushi-pizza-sushi-pizza-makizushi-sushi-food-recipe-removebg-preview.png" class="d-block w-100" alt="Prato 2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="prato">
+                                    
+                                    <div class="prato-circulo">
+                                         <img src="../img/png-clipart-hamburger-street-food-seafood-fast-food-delicious-food-salmon-with-vegetables-salad-in-plate-leaf-vegetable-food-removebg-preview.png" class="d-block w-100 " alt="Prato 2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="prato">
+                                    
+                                    <div class="prato-circulo">
+                                        <img src="../img/png-clipart-of-thali-set-indian-cuisine-dal-vegetarian-cuisine-roti-non-veg-food-food-breakfast-thumbnail-removebg-preview.png" class="d-block w-100" alt="Prato 2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center">Não deixe de mandar a sua receita aqui</h1>
+            <p class="text-center">Suas interações são muito importantes para gente, então não deixe de participar.</p>
+    
+        </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    
+   <!-- Meu CSS -->
+   <link rel="stylesheet" href="../stilo/geral.css">
+  
+</head>
+<body style="background-color: #038C65;">
+
+    <!-- Cabeçalho -->
+    <header class="container-fluid ">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../img/logo.png" class="imgi" alt="Logo">Re.C
+            </div>
+            <div class="col-md-8">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/receita.html">Receita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/envie.html">Envie seu prato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/sobre.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/contatos.html">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-2 text-right">
+                <button class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo -->
+    <main class="container">
+        <main class="container mt-5">
+            <h1>Envie sua Receita</h1>
+    
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="nome-receita">Nome da Receita:</label>
+                    <input type="text" placeholder="Escreva como você quer que sua receita seja chamada!" class="form-control" id="nome-receita" name="nome-receita" required>
+                </div>
+                <div class="form-group">
+                    <label for="imagem-receita">Imagem da Receita:</label>
+                    <input type="file" class="form-control-file" id="imagem-receita" name="imagem-receita" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <label for="instrucoes-receita">Instruções:</label>
+                    <textarea class="form-control" placeholder="Deixe aqui as instruções de preparo do seu prato!" id="instrucoes-receita" name="instrucoes-receita" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+    
+        </main>
+    
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
