@@ -1,0 +1,11 @@
+.accordion-item {
+    margin-bottom: 1rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(90deg);
+}
