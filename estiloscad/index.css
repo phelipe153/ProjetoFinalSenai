@@ -2,7 +2,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
    
-    background-image: url(../imagens/denis-tuksar-4KmlGmGXiQ8-unsplash.jpg);
+    background-image: url(../imagenscad/denis-tuksar-4KmlGmGXiQ8-unsplash.jpg);
 }
 
 /* Rectangle 3 */
@@ -92,6 +92,6 @@ a{
 
 a:hover{
     font-size: 18px;
-    color: rgb(49, 34, 6);
+    color: rgb(226, 187, 113);
     transition: 1s;
 }
