@@ -25,3 +25,9 @@ h2{
     background-color: orange;
     color: aqua;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}

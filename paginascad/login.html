@@ -5,24 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../estiloscad/geral.css">
-    <link rel="stylesheet" href="../estiloscad/index.css">
+    <link rel="stylesheet" href="../estiloscad/geralcad.css">
+    <link rel="stylesheet" href="../estiloscad/login.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
 </head>
 <body>
-    <header>
-        <div class="head_box">
-            <div id="box_menu">
+    <header class="container-fluid fixed-header">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../img/logo.png" class="imgi" alt="Logo"> Re.C
+            </div>
+            <div class="col-md-8">
                 <nav>
-                    <li id="texum"><a href="../paginas/index.html">HOME</a></li>
-                    <li id="texdo"><a href="../paginas/sobre.html">SOBRE</a></li>
-                    <li id="texte"><a href="../paginas/receita.html">RECEITAS</a></li>
-                    <li id="texqu"><a href="../paginas/envie.html">ENVIE SUA RECEITA</a></li>
-                    <li id=""><a href="../paginas/contatos.html">CONTATOS</a></li>
+                    
+                        <li><a href="../paginas/index.html">HOME</a></li>
+                        <li><a href="../paginas/sobre.html">SOBRE</a></li>
+                        <li><a href="../paginas/receita.html">RECEITAS</a></li>
+                        <li><a href="../paginas/envie.html">ENVIE SUA RECEITA</a></li>
+                        <li><a href="../paginas/contatos.html">CONTATOS</a></li>
+                    
                 </nav>
             </div>
-            <div id="box_login">
-                <button href="#" id="butt">LOGIN</button>
-                </div>
+            <div class="col-md-2">
+                <a href="../paginascad/login.html"><button class="btn" id="butt">Login</button></a>
+            </div>
         </div>
     </header>
     <main>
@@ -30,17 +36,26 @@
             <div id="for">
                 <form action="">
                     <h1>LOGIN</h1>
-                 <label for="">ID</label><input type="text"><br>
-                 <label for="">Senha</label><input type="password"><br>
+                    <label for="">ID</label><input type="text"><br>
+                    <label for="">Senha</label><input type="password"><br>
+                    <a class="fmb" href="../paginas/index.html"><button class="fmb">enviar</button></a>
                 </form>
-                <a href="../paginas/index.html"><button >enviar</button></a>
-            <div id="out">
-                <a href="../paginascad/esqueci.html">Esqueci a senha</a>
-                <p>OU</p>
-                <a href="../paginascad/cadastro.html">Sem cadastro</a>
+                <div id="out">
+                    <a class="fm" href="../paginascad/esqueci.html">Esqueci a senha</a>
+                    <p>OU</p>
+                    <a class="fm" href="../paginascad/cadastro.html">Sem cadastro</a>
+                </div>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p>
+            © 2023 Phe Franco 
+        </p>
+    </footer>
 </body>
+
 </html>
+
+
+

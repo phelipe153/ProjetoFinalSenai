@@ -1,0 +1,96 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagenscad/denis-tuksar-4KmlGmGXiQ8-unsplash.jpg);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    height: 80%;
+    background-color: rgba(47, 32, 6, 0.79);
+    text-align: center;
+    margin: auto;
+    border-radius: 0% 5% 0% 5%;
+    padding: 10%;
+}
+
+#for label {
+    color: white;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+input {
+    background-color: rgba(204, 169, 108, 0.69);
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 4%;
+    
+    margin-left: 8%;
+    border-radius: 8%;
+    box-shadow: 1px 1px 1px 1px black;
+    width: 40%;
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 2%;
+    text-shadow: 5px 5px black;
+}
+
+.fmb {
+    color: aliceblue;
+    background-color: rgb(177, 146, 108);
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 15px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.fmb:hover {
+    color: #2f2006;
+    transition: 1s;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#out {
+    padding-top: 3%;
+}
+
+.fm {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff9f9;
+}
+
+.fm:hover {
+    font-size: 18px;
+    color: rgb(226, 187, 113);
+    transition: 1s;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+    }
+}

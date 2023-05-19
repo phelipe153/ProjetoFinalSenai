@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../estiloscad/geral.css">
+    <link rel="stylesheet" href="../estiloscad/geralcad.css">
     <link rel="stylesheet" href="../estiloscad/cadastro.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
 </head>
 <body>
-    <header>
-        <div class="head_box">
-            <div id="box_menu">
-                <nav>
-                    <li id="texum"><a href="../paginas/index.html">HOME</a></li>
-                    <li id="texdo"><a href="../paginas/sobre.html">SOBRE</a></li>
-                    <li id="texte"><a href="../paginas/receita.html">RECEITAS</a></li>
-                    <li id="texqu"><a href="../paginas/envie.html">ENVIE SUA RECEITA</a></li>
-                    <li id=""><a href="../paginas/contatos.html">CONTATOS</a></li>
+    <header class="container-fluid fixed-header">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../img/logo.png" class="imgi" alt="Logo"> Re.C
+            </div>
+            <div class="col-md-8">
+                <nav>                  
+                        <li><a href="../paginas/index.html">HOME</a></li>
+                        <li><a href="../paginas/sobre.html">SOBRE</a></li>
+                        <li><a href="../paginas/receita.html">RECEITAS</a></li>
+                        <li><a href="../paginas/envie.html">ENVIE SUA RECEITA</a></li>
+                        <li><a href="../paginas/contatos.html">CONTATOS</a></li>                 
                 </nav>
             </div>
-            <div id="box_login">
-                <button id="butt">LOGIN</button>
-                </div>
+        
+            <div class="col-md-2">
+                <a href="../paginascad/login.html"><button class="btn" id="butt">Login</button></a>
+            </div>
         </div>
     </header>
     <main>
@@ -31,26 +36,34 @@
                 <form action="../paginascad/login.html">
                     <h1>CADASTRO</h1>
 
-                    <label for="">Nome</label>
-                    <input type="text" name="" id="n"><br>
-                    <label for="">CPF</label>
-                    <input type="number" name="" id="n"><br>
-                    <label for="">E-mail</label>
-                    <input type="email" name="" id="n"><br>
-                    <label for="">Senha</label>
-                    <input type="password" name="" id="n"><br>
-                    <label for="">Senha novamente</label>
-                    <input type="password" name="" id="n"><br>
-                    <label for="">ID</label>
-                    <input type="text" name="" id="n"><br>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
 
-                    <button>ENVIAR</button>
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Ex: 123.456.789-00">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha">
+
+                    <label for="senha-confirmacao">Senha novamente</label>
+                    <input type="password" name="senha-confirmacao" id="senha-confirmacao">
+
+                    <label for="id">ID</label>
+                    <input type="text" name="id" id="id"> <br>
+
+                    <button type="submit">ENVIAR</button>
                 </form>
             </div>
         </div>
     </main>
     <footer>
-        
+        <p>
+            © 2023 Phe Franco 
+        </p>
     </footer>
 </body>
+
 </html>

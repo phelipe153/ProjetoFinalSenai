@@ -5,44 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../estiloscad/geral.css">
+    <link rel="stylesheet" href="../estiloscad/geralcad.css">
     <link rel="stylesheet" href="../estiloscad/esqueci.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
 </head>
 <body>
-    <header>
-        <div class="head_box">
-            <div id="box_menu">
-                <nav>
-                    <li id="texum"><a href="../paginas/index.html">HOME</a></li>
-                    <li id="texdo"><a href="../paginas/sobre.html">SOBRE</a></li>
-                    <li id="texte"><a href="../paginas/receita.html">RECEITAS</a></li>
-                    <li id="texqu"><a href="../paginas/envie.html">ENVIE SUA RECEITA</a></li>
-                    <li id=""><a href="../paginas/contatos.html">CONTATOS</a></li>
-                </nav>
-            
+    <header class="container-fluid fixed-header">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="../img/logo.png" class="imgi" alt="Logo"> Re.C
             </div>
-            <div id="box_login">
-                <button id="butt">LOGIN</button>
-                </div>
+            <div class="col-md-8">
+                <nav>
+                    
+                        <li><a href="../paginas/index.html">HOME</a></li>
+                        <li><a href="../paginas/sobre.html">SOBRE</a></li>
+                        <li><a href="../paginas/receita.html">RECEITAS</a></li>
+                        <li><a href="../paginas/envie.html">ENVIE SUA RECEITA</a></li>
+                        <li><a href="../paginas/contatos.html">CONTATOS</a></li>
+                    
+                </nav>
+            </div>
+        
+            <div class="col-md-2">
+                <a href="../paginascad/login.html"><button class="btn" id="butt">Login</button></a>
+            </div>
         </div>
     </header>
     <main>
         <div class="container">
-        <div class="cad">
-            <form action="../paginascad/login.html">
-                <h1>Redefinir senha</h1>
+            <div class="cad">
+                <form action="../paginascad/login.html">
+                    <h1>Redefinir senha</h1>
 
-                <label for="">E-mail</label>
-                     <input type="text" name="" id="ni"><br>
-                
-                     <p>OU</p>
-                <label for="">CPF</label>
+                    <label for="">E-mail</label>
+                    <input type="text" name="" id="ni"><br>
+
+                    <p>OU</p>
+
+                    <label for="">CPF</label>
                     <input type="text" name="" id="ni"><br>
 
                     <button>ENVIAR</button>
-            </form>
-            </main>
-
-    <footer></footer>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            © 2023 Phe Franco 
+        </p>
+    </footer>
 </body>
+
 </html>

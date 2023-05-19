@@ -87,3 +87,37 @@ a:hover{
     color: rgb(46, 28, 5);
     transition: 1s;
 }
+
+footer{
+    background-color: #A65F46;
+    color: rgb(251, 248, 248);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 5%;
+    
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width:415px){
+    .container{
+        width: 40%;
+    }
+    .container-fluid{
+        padding: 0%;
+        width: 100%;
+    }
+    nav{
+        gap: 1rem;
+
+    }
+    li{
+        font-size: 10px;
+    }
+}

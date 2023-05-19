@@ -5,69 +5,78 @@ body{
 
 }
 
-main{
-    width: 1080px;
-    height: 720px;
+main {
     display: flex;
-    
+
     align-items: center;
-    align-self: center;
-    align-content: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.container{
-    margin: 20%;
-    width: 1080px;
-    height: 720px;
-    display: flex;
-
-}
-
-.cad{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: center;
-    width: 50%;
-    height: auto;
-    border-radius: 5% 0% 0% 5%;
-    background-color: rgba(49, 27, 2, 0.728);
-}
-
-h1{
+.container {
+    width: 20%;
+    max-width: 400px;
+    height: 100%;
+    background-color: rgba(47, 32, 6, 0.79);
     text-align: center;
-    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    margin-top: 7%;
+    border-radius: 0% 5% 0% 5%;
 }
 
-#n{
-    background-color: #e2cda8;
-}
-
-.cad label{
-    display: flex;
+.cad label {
+    display: block;
     color: white;
-    text-align: left;
-    align-items: center;
-    flex-direction: row;
+    font-size: 20px;
     
+     text-align: center;
 }
 
-.cad input{ 
-    flex-direction: row;
-    display: flex;
-    text-align: center;
+.cad input {
+    background-color: rgba(47, 32, 6, 0.79);
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 40%;
 }
 
-.cad button{
+.cad h1 {
+    color: white;
+    margin-bottom: 2%;
+    text-shadow: 5px 5px black;
+}
+
+.cad button {
+    color: aliceblue;
+    background-color: rgb(177, 146, 108);
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 15px;
+    margin-top: 2%;
     cursor: pointer;
-    text-align: center;
-    margin-left: 30%;
-    background-color: antiquewhite;
+
 }
 
-.cad button:hover{
+.cad button:hover {
     color: #2f2006;
     transition: 1s;
-    font-size: 16px;
-    background-color: #e2cda8;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .cad input {
+        width: 90%;
+    }
 }
